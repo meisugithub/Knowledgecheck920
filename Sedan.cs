@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Toyota
 {
-    public class Sedan:Type
+    public class Sedan:Vehicle
     {
         public bool Hybrid { get; set; }
         public string Model { get; set; }

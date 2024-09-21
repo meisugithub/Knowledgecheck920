@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Toyota
 {
-    public class Type
+    public class Vehicle
     {
         public string Name { get; set; }
         public string Description { get; set; } 
