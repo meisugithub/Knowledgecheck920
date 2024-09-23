@@ -13,7 +13,10 @@ namespace Toyota
 
         public override string ToString()
         {
-            return Name + " " + Description + " " + Price + " " + Quantity + " " + Hybrid + " " + Model;
+            string output = base.ToString();
+            output += $"Hybrid: {Hybrid}{newLine}";
+            output += $"Model: {Model}{newLine}";
+            return output ; 
         }
 
     }
